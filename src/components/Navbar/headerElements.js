@@ -51,6 +51,15 @@ export const NavBrandLogo = styled(Link)`
 export const NavIcon = styled(GoGear)`
   margin: 0 0.5rem 0 2rem;
   color: #fff;
+  @keyframes spin {
+    0% {
+      transform: rotateZ(0);
+    }
+    100% {
+      transform: rotateZ(360deg);
+    }
+  }
+  animation: spin 3s linear infinite;
 `
 
 export const MobileIcon = styled.div`
