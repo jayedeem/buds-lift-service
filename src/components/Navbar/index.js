@@ -11,7 +11,6 @@ import {
   NavItem,
   NavLinks,
 } from "./headerElements"
-import "./nav.css"
 
 function Navbar() {
   const [click, setClick] = useState(false)
