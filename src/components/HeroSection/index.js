@@ -1,15 +1,20 @@
 import React from "react"
-import { HeroWrapper } from "./heroElements"
+import { Button } from "../buttonElements"
+import "./hero.css"
 
 export default function HeroSection() {
   return (
-    <HeroWrapper>
-      <h2>Fork Lift Repairs and Services</h2>
+    <div className="hero-container">
+      <h1>Repairs and Services</h1>
       <p>
-        Forklift services for repair in Orange County, Inland Empire, and the
-        Los Angeles Area.
+        Forklift service for repair in Orange County, Inland Empire, and the
+        greater Los Angeles area
       </p>
-      <button>Learn More</button>
-    </HeroWrapper>
+      <div className="hero-button">
+        <Button primary fontBig big>
+          Learn More
+        </Button>
+      </div>
+    </div>
   )
 }

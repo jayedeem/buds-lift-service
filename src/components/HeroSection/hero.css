@@ -1,0 +1,44 @@
+.hero-container {
+  background: url("../../images/warehouse.jpg") center center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  margin-top: -80px;
+}
+
+.hero-container > h1 {
+  color: #fff;
+  font-size: 70px;
+  margin-top: 0px;
+}
+
+.hero-container > p {
+  margin: 40px 0 0 30px;
+  color: #fff;
+  font-size: 40px;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-button {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 960px) {
+  .hero-container > h1 {
+    font-size: 55px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero-container > h1 {
+    font-size: 45px;
+  }
+  .hero-container > p {
+    font-size: 30px;
+  }
+}

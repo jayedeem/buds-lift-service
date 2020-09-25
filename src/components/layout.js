@@ -7,7 +7,6 @@ const Layout = ({ children }) => {
   return (
     <>
       <Navbar />
-      <HeroSection />
       <main>{children}</main>
     </>
   )

@@ -11,6 +11,7 @@ import {
   NavItem,
   NavLinks,
 } from "./headerElements"
+import "./nav.css"
 
 function Navbar() {
   const [click, setClick] = useState(false)
@@ -33,7 +34,7 @@ function Navbar() {
 
   return (
     <>
-      <IconContext.Provider value={{ color: "#141414" }}>
+      <IconContext.Provider value={{ color: "#fff" }}>
         <Nav active={scroll} click={click}>
           <NavbarContainer>
             <NavBrandLogo to="/">
@@ -49,6 +50,9 @@ function Navbar() {
               </NavItem>
               <NavItem>
                 <NavLinks to="/services">Services</NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks to="/about">About</NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks to="/contact">Contact Us</NavLinks>
