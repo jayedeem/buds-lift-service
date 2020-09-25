@@ -8,4 +8,7 @@ export const MiddleContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media screen and (max-width: 960px) {
+    height: 100vh;
+  }
 `

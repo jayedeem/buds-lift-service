@@ -36,7 +36,7 @@ function Navbar() {
       <IconContext.Provider value={{ color: "#fff" }}>
         <Nav active={scroll} click={click}>
           <NavbarContainer>
-            <NavBrandLogo to="/">
+            <NavBrandLogo active={scroll} to="/">
               <NavIcon />
               Bud's Lift Repair
             </NavBrandLogo>

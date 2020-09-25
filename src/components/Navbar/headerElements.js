@@ -18,7 +18,11 @@ export const Nav = styled.nav`
 
   @media screen and (max-width: 960px) {
     background: ${({ click }) => (click ? "#000" : "transparent")};
-    transition: 0.8s all ease;
+    background: ${({ active }) =>
+      active
+        ? "#000"
+        : "linear-gradient(to bottom, rbga(255,255,255,0.9) 0%, rgba(255,255,255,9) 100%)"};
+    transition: 0.5s all ease;
   }
 `
 export const NavbarContainer = styled.div`
@@ -35,13 +39,13 @@ export const NavBrandLogo = styled(Link)`
   justify-content: center;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
 
   @media screen and (max-width: 960px) {
     margin-left: 0px;
-    font-size: 1.3rem;
+    font-size: ${({ active }) => (active ? "1.6rem" : "1.5rem")};
   }
 `
 export const NavIcon = styled(GoGear)`
@@ -76,7 +80,7 @@ export const NavMenu = styled.ul`
     position: absolute;
     top: ${({ click }) => (click ? "100%" : "-1000px")};
     opacity: 1;
-    transition: all 0.5s ease;
+    transition: all 0.8s ease;
     background: #000;
   }
 `
@@ -114,7 +118,7 @@ export const NavLinks = styled(Link)`
     &:hover {
       color: #ff4040;
       background: #e1e1e1;
-      transition: all 0.3s ease;
+      transition: all 0.6s ease;
       border-bottom: 0.5px solid #ff4040;
       transform: scale(1);
     }
