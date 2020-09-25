@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 export const Nav = styled.nav`
   background: ${({ active }) =>
     active
-      ? "#fff"
+      ? "#000"
       : "linear-gradient(to bottom, rbga(255,255,255,0.9) 0%, rgba(255,255,255,9) 100%)"};
   height: 80px;
   display: flex;
@@ -38,13 +38,6 @@ export const NavBrandLogo = styled(Link)`
   font-size: 2rem;
   display: flex;
   align-items: center;
-  /* &:hover {
-    color: #ff4040;
-    background: #e1e1e1;
-    transition: all 0.3s ease;
-    border-bottom: 0.5px solid #ff4040;
-    transform: scale(1.1);
-  } */
 
   @media screen and (max-width: 960px) {
     margin-left: 0px;
