@@ -49,13 +49,13 @@ function Navbar() {
                 <NavLinks to="/">Home</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/services">Services</NavLinks>
+                <NavLinks to="#">Services</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/about">About</NavLinks>
+                <NavLinks to="#">About</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/contact">Contact Us</NavLinks>
+                <NavLinks to="#">Contact Us</NavLinks>
               </NavItem>
             </NavMenu>
           </NavbarContainer>

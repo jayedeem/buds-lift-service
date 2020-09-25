@@ -10,7 +10,7 @@ export const Nav = styled.nav`
   height: 80px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   font-size: 1rem;
   position: sticky;
   top: 0;
@@ -27,23 +27,27 @@ export const NavbarContainer = styled.div`
   height: 80px;
   width: 100%;
   z-index: 1;
-  max-width: 1000px;
+  max-width: 1900px;
 `
 export const NavBrandLogo = styled(Link)`
   color: #fff;
   font-weight: bold;
-  justify-self: start;
+  justify-content: center;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
   display: flex;
   align-items: center;
-  &:hover {
+  /* &:hover {
     color: #ff4040;
+    background: #e1e1e1;
+    transition: all 0.3s ease;
+    border-bottom: 0.5px solid #ff4040;
     transform: scale(1.1);
-  }
+  } */
+
   @media screen and (max-width: 960px) {
-    margin-left: 30px;
+    margin-left: 0px;
   }
 `
 export const NavIcon = styled(GoGear)`
@@ -69,7 +73,7 @@ export const NavMenu = styled.ul`
   display: flex;
   align-items: flex-end;
   list-style: none;
-
+  margin-right: 12px;
   @media screen and (max-width: 960px) {
     display: flex;
     flex-direction: column;
@@ -90,17 +94,20 @@ export const NavItem = styled.li`
 `
 export const NavLinks = styled(Link)`
   color: #fff;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 1rem 2.5rem;
   height: 100%;
 
   &:hover {
     color: #ff4040;
+    background: #e1e1e1;
     transition: all 0.3s ease;
+    border-bottom: 0.5px solid #ff4040;
+    transform: scale(1.1);
   }
 
   @media screen and (max-width: 960px) {
@@ -110,5 +117,12 @@ export const NavLinks = styled(Link)`
     padding: 2rem;
     width: 100%;
     display: table;
+    &:hover {
+      color: #ff4040;
+      background: #e1e1e1;
+      transition: all 0.3s ease;
+      border-bottom: 0.5px solid #ff4040;
+      transform: scale(1);
+    }
   }
 `
