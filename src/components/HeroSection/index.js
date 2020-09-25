@@ -5,10 +5,10 @@ import "./hero.css"
 export default function HeroSection() {
   return (
     <div className="hero-container">
-      <h1>Repairs and Services</h1>
+      <h1>Fork Lift Specialist</h1>
       <p>
-        Forklift service for repair in Orange County, Inland Empire, and the
-        greater Los Angeles area
+        Forklift services in Orange County, Inland Empire, and the greater Los
+        Angeles area
       </p>
       <div className="hero-button">
         <Button primary fontBig big>

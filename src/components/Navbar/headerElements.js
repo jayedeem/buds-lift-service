@@ -48,6 +48,7 @@ export const NavBrandLogo = styled(Link)`
 
   @media screen and (max-width: 960px) {
     margin-left: 0px;
+    font-size: 1.3rem;
   }
 `
 export const NavIcon = styled(GoGear)`
