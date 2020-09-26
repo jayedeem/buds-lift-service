@@ -15,6 +15,9 @@ export const Row = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  @media screen and (max-width: 960px) {
+    flex-direction: column;
+  }
 `
 
 export const Col = styled.div`

@@ -48,6 +48,7 @@ export const NavBrandLogo = styled(Link)`
     font-size: ${({ active }) => (active ? "1.6rem" : "1.5rem")};
   }
 `
+
 export const NavIcon = styled(GoGear)`
   margin: 0 0.5rem 0 2rem;
   color: #fff;
