@@ -2,13 +2,24 @@ import styled from "styled-components"
 
 export const MiddleContainer = styled.div`
   background-color: #fff;
-  height: 100vh;
+  height: 50vh;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin: 15px;
+
   @media screen and (max-width: 960px) {
     height: 100vh;
   }
+`
+export const Row = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+`
+
+export const Col = styled.div`
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 `
