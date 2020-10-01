@@ -32,6 +32,12 @@ export const TextWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  span {
+    font-family: "Open Sans";
+    text-align: center;
+  }
+
   h1 {
     font-family: "Open Sans";
     @media screen and (max-width: 682px) {
@@ -41,6 +47,7 @@ export const TextWrapper = styled.div`
     @media screen and (max-width: 540px) {
       font-size: 27px;
       text-align: center;
+      flex-direction: row;
     }
   }
 
@@ -62,19 +69,24 @@ export const Image = styled.img`
 export const ServiceWrapper = styled.div`
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: center;
   width: 100%;
   p {
     text-align: center;
+  }
+  @media screen and (max-width: 540px) {
+    flex-direction: column;
   }
 `
 
 export const ServiceType = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 400px;
   margin: 50px;
-  align-items: center;
   font-family: "Open Sans";
   p {
     font-size: 20px;
@@ -90,12 +102,10 @@ export const ServiceType = styled.div`
   }
   @media screen and (max-width: 682px) {
     font-size: 24px;
-    /* text-align: center; */
   }
   @media screen and (max-width: 540px) {
     font-size: 18px;
-    /* text-align: center; */
-  }
+    
 `
 
 export const ToolBox = styled(FaToolbox)`
