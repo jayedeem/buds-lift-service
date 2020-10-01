@@ -75,7 +75,7 @@ export const ServiceWrapper = styled.div`
   p {
     text-align: center;
   }
-  @media screen and (max-width: 540px) {
+  @media screen and (max-width: 960px) {
     flex-direction: column;
   }
 `
@@ -90,7 +90,7 @@ export const ServiceType = styled.div`
   font-family: "Open Sans";
   p {
     font-size: 20px;
-    width: 200px;
+    width: 300px;
     /* font-weight: bold; */
     font-family: "Open Sans";
   }

@@ -42,7 +42,7 @@ export default function MiddleSection() {
           <ToolBox />
           <h1>REPAIR</h1>
           <p>
-            Master Technicans provide repair at your location for the lowest
+            Master Technican provides repairs at your location for the lowest
             possible rates
           </p>
         </ServiceType>
