@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   /* height: 50vh; */
   width: 100%;
   display: flex;
-  padding: 50px 50px;
+  padding: 50px 20px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -21,10 +21,13 @@ export const Wrapper = styled.div`
 export const Description = styled.p`
   font-size: 20px;
   padding: 10px;
-  width: 90%;
+  width: 100%;
   line-height: 2rem;
   font-family: "Open Sans";
   text-align: center;
+  @media screen and (max-width: 540px) {
+    width: 100%;
+  }
 `
 
 export const TextWrapper = styled.div`
