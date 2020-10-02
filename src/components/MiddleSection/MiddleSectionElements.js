@@ -21,12 +21,13 @@ export const Wrapper = styled.div`
 export const Description = styled.p`
   font-size: 20px;
   padding: 10px;
-  width: 100%;
+  width: 90%;
+
   line-height: 2rem;
   font-family: "Open Sans";
   text-align: center;
   @media screen and (max-width: 540px) {
-    width: 100%;
+    width: 75%;
   }
 `
 
@@ -108,7 +109,7 @@ export const ServiceType = styled.div`
   }
   @media screen and (max-width: 540px) {
     font-size: 18px;
-    
+  }
 `
 
 export const ToolBox = styled(FaToolbox)`

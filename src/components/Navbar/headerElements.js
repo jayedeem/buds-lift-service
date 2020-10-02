@@ -7,6 +7,7 @@ export const Nav = styled.nav`
     active
       ? "#000"
       : "linear-gradient(to bottom, rbga(255,255,255,0.9) 0%, rgba(255,255,255,9) 100%)"};
+
   height: 80px;
   display: flex;
   justify-content: center;
@@ -18,7 +19,7 @@ export const Nav = styled.nav`
   z-index: 111;
 
   @media screen and (max-width: 960px) {
-    background: ${({ click }) => (click ? "#000" : "transparent")};
+    background: ${({ click }) => (click ? "#fff" : "transparent")};
     background: ${({ active }) =>
       active
         ? "#000"

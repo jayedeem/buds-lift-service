@@ -48,7 +48,7 @@ function Navbar() {
                 <NavLinks to="/">Home</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="#">Services</NavLinks>
+                <NavLinks to="/services/">Services</NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks to="#">About</NavLinks>

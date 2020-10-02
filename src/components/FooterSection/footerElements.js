@@ -5,17 +5,20 @@ import { ImYelp } from "react-icons/im"
 import { Link } from "gatsby"
 
 export const FooterWrapper = styled.div`
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   left: 0;
   bottom: 0;
+  right: 0;
   width: 100%;
-  height: 100px;
+  height: 60px;
   background-color: #000;
   color: white;
   span {
+    font-size: 1.2rem;
     margin-right: 7px;
     font-family: "Open Sans";
   }
