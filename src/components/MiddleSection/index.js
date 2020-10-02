@@ -18,7 +18,7 @@ export default function MiddleSection() {
   return (
     <Wrapper>
       <TextWrapper>
-        <span>Established 2019</span>
+        <span id="middle">Established 2019</span>
         <h1>YOUR SOURCE FOR REPAIRS &#38; SERVICES </h1>
         <Description>
           When your business relies on forklifts to keep inventory moving, you

@@ -11,7 +11,7 @@ export default function HeroSection() {
         Angeles area
       </p>
       <div className="hero-button">
-        <Button primary fontBig big>
+        <Button primary fontBig big href="#middle">
           Learn More
         </Button>
       </div>
