@@ -62,7 +62,7 @@ export const NavIcon = styled(GoGear)`
       transform: rotateZ(360deg);
     }
   }
-  animation: spin 3s linear infinite;
+  animation: spin 7s linear infinite;
 `
 
 export const MobileIcon = styled.div`
@@ -114,7 +114,7 @@ export const NavLinks = styled(Link)`
 
   &:hover {
     color: #ff4040;
-    background: #e1e1e1;
+
     transition: all 0.3s ease;
     border-bottom: 0.5px solid #ff4040;
     transform: scale(1.1);

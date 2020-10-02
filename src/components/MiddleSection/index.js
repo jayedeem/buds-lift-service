@@ -16,9 +16,9 @@ import { BsTools } from "react-icons/bs"
 
 export default function MiddleSection() {
   return (
-    <Wrapper>
+    <Wrapper id="middle">
       <TextWrapper>
-        <span id="middle">Established 2019</span>
+        <span>Established 2019</span>
         <h1>YOUR SOURCE FOR REPAIRS &#38; SERVICES </h1>
         <Description>
           When your business relies on forklifts to keep inventory moving, you

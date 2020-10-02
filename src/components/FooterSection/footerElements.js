@@ -15,8 +15,10 @@ export const FooterWrapper = styled.div`
   right: 0;
   width: 100%;
   height: 60px;
+  clear: both;
   background-color: #000;
   color: white;
+  /* margin-top: -200px; */
   span {
     font-size: 1.2rem;
     margin-right: 7px;
