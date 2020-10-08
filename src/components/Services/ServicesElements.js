@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import forkLift from "../../images/forklift.jpg"
+
 export const Wrapper = styled.div`
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(${forkLift}) no-repeat center center/cover fixed;
@@ -28,12 +29,12 @@ export const ServiceType = styled.div`
   width: 30rem;
 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
   /* border: 0.2px solid #000; */
   margin: 10px;
   padding: 2px 16px;
   &:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.4s;
   }
   @media screen and (max-width: 960px) {
     padding: 1.2rem;

@@ -51,10 +51,10 @@ function Navbar() {
                 <NavLinks to="/services/">Services</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="#">About</NavLinks>
+                <NavLinks to="/about/">About</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="#">Contact Us</NavLinks>
+                <NavLinks to="/contact/">Contact Us</NavLinks>
               </NavItem>
             </NavMenu>
           </NavbarContainer>
