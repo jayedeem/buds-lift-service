@@ -2,4 +2,4 @@
 
 GatsbyJs/Styled Components
 
-https://objective-hawking-afaad4.netlify.app/services/
+https://objective-hawking-afaad4.netlify.app/
